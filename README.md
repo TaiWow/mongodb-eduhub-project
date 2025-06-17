@@ -73,7 +73,8 @@ EduHub allows instructors to create courses, students to enroll and complete les
 
 ## 4. Architecture Diagram
 
-*Figure: Collections and relationships in EduHub.*
+![Database Diagram](docs/db_diagram.png)
+
 
 ---
 
@@ -184,4 +185,14 @@ Indexes created:
 Detailed performance analysis: [docs/performance\_analysis.md](docs/performance_analysis.md).
 
 ---
+### Validation & Error Handling Results
+
+| Test                    | Result                                                                     |
+|-------------------------|----------------------------------------------------------------------------|
+| Duplicate Key           | DuplicateKeyError caught: E11000 duplicate key error collection: eduhub_db.users index: _id_ dup key: { _id: … } |
+| Missing Required Field  | WriteError caught (missing field): Document failed validation               |
+| Invalid Data Type       | WriteError caught (invalid type): Document failed validation                |
+| Invalid Enum Value      | WriteError caught (invalid enum): Document failed validation                |
+| Invalid Email Format    | WriteError caught (invalid email): Document failed validation               |
+
 
