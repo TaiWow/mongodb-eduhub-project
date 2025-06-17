@@ -22,7 +22,7 @@ Task 6.2: Error Handling
 
 import datetime
 from pymongo import errors
-from part1_setup import get_client, setup_database, DB_NAME
+from src.part1_setup import get_client, setup_database, DB_NAME
 import pandas as pd
 
 

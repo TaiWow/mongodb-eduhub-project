@@ -19,7 +19,7 @@ Task 5.2: Query Optimization
 import datetime
 import time
 from pymongo import errors
-from part1_setup import get_client, DB_NAME
+from src.part1_setup import get_client, DB_NAME
 import pandas as pd
 
 # Optional: for ASCII tables in script mode

@@ -20,7 +20,7 @@ import random
 import datetime
 
 from pymongo import errors
-from part1_setup import get_client, DB_NAME
+from src.part1_setup import get_client, DB_NAME
 
 import pandas as pd
 

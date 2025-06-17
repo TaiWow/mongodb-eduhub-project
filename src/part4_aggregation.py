@@ -23,7 +23,7 @@ import datetime
 from pymongo import MongoClient
 import pandas as pd
 
-from part1_setup import get_client, DB_NAME
+from src.part1_setup import get_client, DB_NAME
 
 # Optional: for prettier terminal tables
 try:
