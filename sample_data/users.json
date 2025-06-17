@@ -1,1 +1,1 @@
-{"_id":{"$oid":"6850b8cc329913cf8b7fac69"},"userId":"udup","email":"dup@example.com","firstName":"Dup","lastName":"User","role":"student","dateJoined":{"$date":"2025-06-17T00:37:32.426Z"},"profile":{"bio":"","avatar":"","skills":[]},"isActive":true}
+[{"_id":{"$oid":"6850e9ed24ef14dd39507df7"},"userId":"udup","email":"dup@example.com","firstName":"Dup","lastName":"User","role":"student","dateJoined":{"$date":"2025-06-17T04:07:09.375Z"},"profile":{"bio":"","avatar":"","skills":[]},"isActive":true}]
