@@ -1,0 +1,11 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["userId","email","firstName","lastName","role"],
+    "properties": {
+      "email": {"bsonType": "string", "pattern": "^.+@.+$"},
+      "role": {"enum": ["student","instructor"]},
+      "dateJoined": {"bsonType": "date"}
+    }
+  }
+}
