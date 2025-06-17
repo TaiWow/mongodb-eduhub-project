@@ -2,7 +2,7 @@
 
 ## Objective
 
-Evaluate query performance improvements through indexing and optimization of frequently accessed fields within the EduHub MongoDB database.
+Evaluated query performance improvements through indexing and optimization of frequently accessed fields within the EduHub MongoDB database.
 
 ## Indexed Fields
 
