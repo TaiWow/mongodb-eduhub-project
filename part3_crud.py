@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 part3_crud.py
 
@@ -16,10 +16,9 @@ import datetime
 import sys
 
 from pymongo import errors
-from src.part1_setup import get_client, DB_NAME
+from part1_setup import get_client, DB_NAME
 import pandas as pd
 
-# Optional: for prettier terminal tables
 try:
     from tabulate import tabulate
 except ImportError:

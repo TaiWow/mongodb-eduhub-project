@@ -1,9 +1,9 @@
-from src.part1_setup import setup_database
-from src.part2_data_population import main as populate_data
-from src.part3_crud import *
-from src.part4_aggregation import *
-from src.part5_performance import profile_queries
-from src.part6_validation import main as run_validation
+from part1_setup import setup_database
+from part2_data_population import main as populate_data
+from part3_crud import *
+from part4_aggregation import *
+from part5_performance import profile_queries
+from part6_validation import main as run_validation
 
 def run_all():
     client = get_client()

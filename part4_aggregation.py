@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 part4_aggregation.py
 
@@ -23,9 +23,9 @@ import datetime
 from pymongo import MongoClient
 import pandas as pd
 
-from src.part1_setup import get_client, DB_NAME
+from part1_setup import get_client, DB_NAME
 
-# Optional: for prettier terminal tables
+
 try:
     from tabulate import tabulate
 except ImportError:

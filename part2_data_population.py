@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 part2_data_population.py
 
@@ -20,17 +20,17 @@ import random
 import datetime
 
 from pymongo import errors
-from src.part1_setup import get_client, DB_NAME
+from part1_setup import get_client, DB_NAME
 
 import pandas as pd
 
-# Optional: for prettier terminal tables
+
 try:
     from tabulate import tabulate
 except ImportError:
     tabulate = None
 
-# Make this module‐level so notebooks can inspect after calling main()
+#  module‐level so notebooks can inspect after calling main()
 tables: dict = {}
 
 # Seed randomness for reproducibility

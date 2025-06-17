@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 part5_performance.py
 
@@ -19,10 +19,10 @@ Task 5.2: Query Optimization
 import datetime
 import time
 from pymongo import errors
-from src.part1_setup import get_client, DB_NAME
+from part1_setup import get_client, DB_NAME
 import pandas as pd
 
-# Optional: for ASCII tables in script mode
+
 try:
     from tabulate import tabulate
 except ImportError:
